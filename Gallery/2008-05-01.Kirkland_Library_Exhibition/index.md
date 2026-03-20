@@ -7,5 +7,5 @@ layout: default
 
 April 2008 Exhibition at the Kirkland, WA Library
 
-![May 2008 Kirkland Library Exhibition](6484957.jpg)
+{% include gallery.html %}
 

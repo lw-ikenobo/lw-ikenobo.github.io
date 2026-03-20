@@ -7,5 +7,5 @@ layout: default
 
 ## September 2024 Kirkland Library Exhibition
 
-![2024 September Kirkland Exhibition](a146425.jpg)
+{% include gallery.html %}
 

@@ -7,5 +7,5 @@ layout: default
 
 May 2010 Exhibition at the Kirkland, WA Library
 
-![May 2010 Kirkland Library Exhibition](4109043.jpg)
+{% include gallery.html %}
 

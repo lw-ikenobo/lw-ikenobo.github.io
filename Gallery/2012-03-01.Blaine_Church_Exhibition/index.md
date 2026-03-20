@@ -7,7 +7,5 @@ layout: default
 
 March 2012 Bazaar Ikebana Exhibition at Blaine Memorial United Methodist Church, Seattle, WA
 
-![Freestyle](9862030.jpg)
-*Freestyle*
-{: .image-caption}
+{% include gallery.html %}
 

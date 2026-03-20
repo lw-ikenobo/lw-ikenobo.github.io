@@ -7,5 +7,5 @@ layout: default
 
 ## Chapter Educational Luncheon - June 2022
 
-![2022 Chapter Luncheon](20220611-122314.jpg)
+{% include gallery.html %}
 
