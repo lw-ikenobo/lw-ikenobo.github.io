@@ -1,113 +1,23 @@
 ---
 title: "Gallery"
 layout: default
-pages:
-  - title: "2025 April Glass in Bloom Exhibition at the Museum of Glass in Tacoma"
-    url: "2025-04-01.Glass_in_Bloom_Tacoma/"
-    image: "https://live.staticflickr.com/65535/54400435344_e8f7acc9c2_c.jpg"
-  - title: "2024 September Kirkland Exhibition"
-    url: "2024-09-01.Kirkland_Exhibition/"
-    image: "2024-09-01.Kirkland_Exhibition/a146425.jpg"
-  - title: "2024 May Workshop with Visiting Professor Noritaka Noda"
-    url: "2024-05-01.Professor_Noda_Workshop_Gallery/"
-    image: "https://live.staticflickr.com/65535/53742639406_e181fdbfea_b.jpg"
-  - title: "2023 September Kirkland Exhibition"
-    url: "2023-09-01.Kirkland_Exhibition/"
-    image: "2023-09-01.Kirkland_Exhibition/20230916-115812.jpg"
-  - title: "May 2019 Kirkland Library Exhibition"
-    url: "2019-05-01.Kirkland_Library_Exhibition/"
-    image: "2019-05-01.Kirkland_Library_Exhibition/p5051516.jpg"
-  - title: "October 2018 Blaine Church Exhibition"
-    url: "2018-10-01.Blaine_Church_Exhibition/"
-    image: "2018-10-01.Blaine_Church_Exhibition/no-1-copy.jpg"
-  - title: "May 2018 Kirkland Library Exhibition"
-    url: "2018-05-01.Kirkland_Library_Exhibition/"
-    image: "2018-05-01.Kirkland_Library_Exhibition/1-1-copy.jpg"
-  - title: "March 2018 Blaine Church Exhibition"
-    url: "2018-03-01.Blaine_Church_Exhibition/"
-    image: "2018-03-01.Blaine_Church_Exhibition/img-1167.jpg"
-  - title: "October 2017 Blaine Church Exhibition"
-    url: "2017-10-01.Blaine_Church_Exhibition/"
-    image: "2017-10-01.Blaine_Church_Exhibition/img-1066.jpg"
-  - title: "May 2017 Kirkland Library Exhibition"
-    url: "2017-05-01.Kirkland_Library_Exhibition/"
-    image: "2017-05-01.Kirkland_Library_Exhibition/001.jpg"
-  - title: "March 2017 Blaine Church Exhibition"
-    url: "2017-03-01.Blaine_Church_Exhibition/"
-    image: "2017-03-01.Blaine_Church_Exhibition/img-0884.jpg"
-  - title: "October 2016 Blaine Church Exhibition"
-    url: "2016-10-01.Blaine_Church_Exhibition/"
-    image: "2016-10-01.Blaine_Church_Exhibition/img-0839.jpg"
-  - title: "May 2016 Kirkland Library Exhibition"
-    url: "2016-05-01.Kirkland_Library_Exhibition/"
-    image: "2016-05-01.Kirkland_Library_Exhibition/6459783.jpg"
-  - title: "March 2016 Blaine Church Exhibition"
-    url: "2016-03-01.Blaine_Church_Exhibition/"
-    image: "2016-03-01.Blaine_Church_Exhibition/1385644.jpg"
-  - title: "October 2015 Blaine Church Exhibition"
-    url: "2015-10-01.Blaine_Church_Exhibition/"
-    image: "2015-10-01.Blaine_Church_Exhibition/7581392.jpg"
-  - title: "May 2015 Kirkland Library Exhibition"
-    url: "2015-05-01.Kirkland_Library_Exhibition/"
-    image: "2015-05-01.Kirkland_Library_Exhibition/7373967.jpg"
-  - title: "March 2015 Blaine Church Exhibition"
-    url: "2015-03-01.Blaine_Church_Exhibition/"
-    image: "2015-03-01.Blaine_Church_Exhibition/2542421.jpg"
-  - title: "October 2014 Blaine Church Exhibition"
-    url: "2014-10-01.Blaine_Church_Exhibition/"
-    image: "2014-10-01.Blaine_Church_Exhibition/986171.jpg"
-  - title: "May 2014 Kirkland Library Exhibition"
-    url: "2014-05-01.Kirkland_Library_Exhibition/"
-    image: "2014-05-01.Kirkland_Library_Exhibition/8532927.jpg"
-  - title: "March 2014 Blaine Church Exhibition"
-    url: "2014-03-01.Blaine_Church_Exhibition/"
-    image: "2014-03-01.Blaine_Church_Exhibition/4617745.jpg"
-  - title: "October 2013 Blaine Church Exhibition"
-    url: "2013-10-01.Blaine_Church_Exhibition/"
-    image: "2013-10-01.Blaine_Church_Exhibition/2367391.jpg"
-  - title: "May 2013 Kirkland Library Exhibition"
-    url: "2013-05-01.Kirkland_Library_Exhibition/"
-    image: "2013-05-01.Kirkland_Library_Exhibition/9310396.jpg"
-  - title: "March 2013 Blaine Church Exhibition"
-    url: "2013-03-01.Blaine_Church_Exhibition/"
-    image: "2013-03-01.Blaine_Church_Exhibition/3797849.jpg"
-  - title: "July 2012 Exhibition-Chapter Members"
-    url: "2012-07-01.Anniversary_Exhibition/"
-    image: "2012-07-01.Anniversary_Exhibition/1445846.jpg"
-  - title: "March 2012 Blaine Church Exhibition"
-    url: "2012-03-01.Blaine_Church_Exhibition/"
-    image: "2012-03-01.Blaine_Church_Exhibition/9862030.jpg"
-  - title: "October 2011 Blaine Church Exhibition"
-    url: "2011-10-01.Blaine_Church_Exhibition/"
-    image: "2011-10-01.Blaine_Church_Exhibition/7152171.jpg"
-  - title: "September 2011 Kirkland Library Exhibition"
-    url: "2011-09-01.Kirkland_Library_Exhibition/"
-    image: "2011-09-01.Kirkland_Library_Exhibition/8356933.jpg"
-  - title: "March 2011 Blaine Church Exhibition"
-    url: "2011-03-01.Blaine_Church_Exhibition/"
-    image: "2011-03-01.Blaine_Church_Exhibition/6423479.jpg"
-  - title: "October 2010 Blaine Church Exhibition"
-    url: "2010-10-01.Blaine_Church_Exhibition/"
-    image: "2010-10-01.Blaine_Church_Exhibition/8401926.jpg"
-  - title: "May 2010 Kirkland Library Exhibition"
-    url: "2010-05-01.Kirkland_Library_Exhibition/"
-    image: "2010-05-01.Kirkland_Library_Exhibition/4109043.jpg"
-  - title: "May 2008 Kirkland Library Exhibition"
-    url: "2008-05-01.Kirkland_Library_Exhibition/"
-    image: "2008-05-01.Kirkland_Library_Exhibition/6484957.jpg"
 ---
 
 # Gallery
 
 Browse our exhibition photos.
 
+{% assign items = site.pages | where_exp: "item", "item.dir contains '/Gallery/'" | where_exp: "item", "item.dir != '/Gallery/'" | sort: "dir" | reverse %}
 <ul class="page-list">
-{% for p in page.pages %}
+{% for p in items %}
   <li>
     <a href="{{ p.url }}">{{ p.title }}</a>
-    {% if p.image != "" %}
-    <br><a href="{{ p.url }}"><img src="{{ p.image }}" alt="{{ p.title }}"></a>
-    {% endif %}
+    {% for f in site.static_files %}
+      {% if f.path contains p.dir and f.extname == '.jpg' %}
+    <br><a href="{{ p.url }}"><img src="{{ f.path | relative_url }}" alt="{{ p.title }}"></a>
+        {% break %}
+      {% endif %}
+    {% endfor %}
   </li>
 {% endfor %}
 </ul>

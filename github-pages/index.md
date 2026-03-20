@@ -28,8 +28,3 @@ We communicate our art form through demonstrations and exhibitions at area cultu
 Our Chapter currently has more than 30 members. Chapter Officers are: Ms. Sharon Chong, President; Ms. Nataliya Husar, Vice President; Mrs. Hyun Son Shin, Secretary; Ms. Qiong Chen, Treasurer.
 
 **Recent website additions:** Click here for photos of the [September 2023 Ikebana Exhibition](Gallery/2023-09-01.Kirkland_Exhibition/) at the Kirkland Library.
-
-| | | |
-|:---:|:---:|:---:|
-| [![Rikka](images/2406932.jpg)](Ikenobo_Styles/Rikka/) | [![Shoka](images/6327773.jpg)](Ikenobo_Styles/Shoka/) | [![Freestyle](images/6763084.jpg)](Ikenobo_Styles/Free_Style/) |
-| *Rikka Style* | *Shoka Style* | *Freestyle* |
