@@ -13,5 +13,4 @@ For Ikebana lesson information, please see the "Lessons" button on the navigatio
 
 ---
 
-*Website maintainers: see the [README]({{ '/README' | relative_url }}) for instructions on how to update this site.*
-
+_**Website maintainers:** This site is hosted on GitHub Pages with the repository at [github.com/lw-ikenobo/lw-ikenobo.github.io](https://github.com/lw-ikenobo/lw-ikenobo.github.io). Please refer to the README file there for instructions on how to update this site._

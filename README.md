@@ -79,7 +79,6 @@ Copy your `.jpg`, `.png`, or other image files directly into the new folder. The
 
 Create a file called `index.md` inside your new folder. Here is a template you can copy and modify:
 
-{% raw %}
 ```markdown
 ---
 title: "October 2025 Fall Exhibition"
@@ -92,7 +91,6 @@ A short description of the event goes here.
 
 {% include gallery.html %}
 ```
-{% endraw %}
 
 The three important parts are:
 
@@ -100,7 +98,7 @@ The three important parts are:
 
 2. **The description**: Write a heading (`#`) and optionally a short paragraph about the event.
 
-3. **`{% raw %}{% include gallery.html %}{% endraw %}`**: This single line automatically displays all the photos in the folder. You do not need to list individual photos.
+3. **`{% include gallery.html %}`**: This single line automatically displays all the photos in the folder. You do not need to list individual photos.
 
 ### Step 4: Commit and push
 
@@ -116,9 +114,8 @@ The website will update automatically after you push.
 
 ### Flickr Album Page
 
-If your photos are hosted on Flickr instead of in the folder, use a Flickr embed instead of `{% raw %}{% include gallery.html %}{% endraw %}`:
+If your photos are hosted on Flickr instead of in the folder, use a Flickr embed instead of `{% include gallery.html %}`:
 
-{% raw %}
 ```markdown
 ---
 title: "May 2024 Workshop with Visiting Professor Noritaka Noda"
@@ -134,7 +131,6 @@ layout: default
 
 [View full album on Flickr](https://www.flickr.com/photos/YOUR_ACCOUNT/albums/ALBUM_ID)
 ```
-{% endraw %}
 
 To get the embed code from Flickr:
 
@@ -148,7 +144,6 @@ To get the embed code from Flickr:
 
 To embed a PowerPoint file, place the `.pptx` file in the folder and use the PowerPoint embed include:
 
-{% raw %}
 ```markdown
 ---
 title: "Event Presentation"
@@ -161,7 +156,6 @@ Description of the presentation.
 
 {% include pptx_embed.html file="my_presentation.pptx" %}
 ```
-{% endraw %}
 
 This shows an interactive preview of the PowerPoint file in the browser, plus a download link.
 
