@@ -6,9 +6,13 @@ permalink: /README
 
 # Ikenobo Lake Washington Chapter Website
 
-This is the website for the Ikenobo Lake Washington Chapter of the Ikenobo Ikebana Society.
+This is the website for the [Ikenobo Lake Washington Chapter](lw-ikenobo.github.io) of the Ikenobo Ikebana Society.
 It is built with [Jekyll](https://jekyllrb.com/) and hosted on GitHub Pages.
+
 The repository of this website is at [github.com/lw-ikenobo/lw-ikenobo.github.io](https://github.com/lw-ikenobo/lw-ikenobo.github.io) and is maintained by [lw-ikenobo](github.com/lw-ikenobo) GitHub Organization.
+
+The older version of the site is located at [www.ikenobolakewashingtonchapter.com](http://www.ikenobolakewashingtonchapter.com).
+We are currently in the process of migration of the old site from Weebly to this GitHub-based site.
 
 ## Directory Structure
 
