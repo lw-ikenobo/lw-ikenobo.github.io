@@ -46,6 +46,10 @@ footer { border-top: 1px solid #333; margin-top: 2rem; padding: 1rem 0; text-ali
   box-shadow: 0 6px 20px rgba(85,170,224,0.25), 0 2px 8px rgba(0,0,0,0.5);
   text-decoration: none;
 }
+@media (max-width: 600px) {
+  .gallery-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 0.65rem; }
+  .gallery-tile span { font-size: 0.75rem; padding: 0.5rem 0.45rem; }
+}
 code { color: #e0a870; background: #1a1d24; padding: 0.15rem 0.35rem; border-radius: 3px; font-size: 1.05em; }
 pre { background: #1a1d24; padding: 1rem; border-radius: 5px; overflow-x: auto; }
 pre code { background: none; padding: 0; }
