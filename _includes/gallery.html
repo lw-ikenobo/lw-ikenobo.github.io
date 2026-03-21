@@ -8,13 +8,18 @@
 
 <style>
 .lightbox-overlay {
-  display: none; position: fixed; inset: 0; z-index: 9999;
+  position: fixed; inset: 0; z-index: 9999;
   background: #111318; justify-content: center; align-items: center; cursor: default;
+  display: flex; opacity: 0; visibility: hidden;
+  transition: opacity 0.25s ease, visibility 0.25s ease;
 }
-.lightbox-overlay.active { display: flex; }
+.lightbox-overlay.active { opacity: 1; visibility: visible; }
 .lightbox-overlay img {
   max-width: 100vw; max-height: 100vh; object-fit: contain; cursor: default;
+  transition: opacity 0.2s ease, transform 0.25s ease;
 }
+.lightbox-overlay:not(.active) img { transform: scale(0.95); opacity: 0; }
+.lightbox-overlay img.lb-switching { opacity: 0; }
 .lb-btn {
   position: absolute; top: 50%; transform: translateY(-50%);
   background: rgba(255,255,255,0.12); border: none; color: #fff;
@@ -53,9 +58,26 @@
   }
 
   function show(i) {
-    idx = (i % imgs.length + imgs.length) % imgs.length;
+    var newIdx = (i % imgs.length + imgs.length) % imgs.length;
+    var isSwitch = overlay.classList.contains('active') && newIdx !== idx;
+    idx = newIdx;
     var src = imgs[idx].src;
-    lbImg.src = src;
+    if (isSwitch) {
+      lbImg.classList.add('lb-switching');
+      setTimeout(function() {
+        lbImg.src = src;
+        sizeImage(src);
+        lbImg.classList.remove('lb-switching');
+      }, 200);
+    } else {
+      lbImg.src = src;
+      sizeImage(src);
+    }
+    overlay.classList.add('active');
+    resetIdle();
+  }
+
+  function sizeImage(src) {
     var tmp = new Image();
     tmp.onload = function() {
       var natW = tmp.naturalWidth, natH = tmp.naturalHeight;
@@ -65,8 +87,6 @@
       lbImg.style.height = Math.round(natH * scale) + 'px';
     };
     tmp.src = src;
-    overlay.classList.add('active');
-    resetIdle();
   }
 
   function hide() {
