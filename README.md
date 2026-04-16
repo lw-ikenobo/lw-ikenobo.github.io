@@ -19,19 +19,20 @@ We are currently in the process of migration of the old site from Weebly to this
 ```
 /
 ├── index.md                 ← Home page
+├── Chapter_Activity/        ← Chapter event pages
+│   ├── index.md             ← Chapter Activity listing page (auto-generated tiles)
+│   └── 2017-06-01.Professor_Chino_Workshop/
+│       ├── index.md
+│       └── img-0949.jpg
 ├── Gallery/                 ← Exhibition photo galleries
 │   ├── index.md             ← Gallery listing page (auto-generated tiles)
 │   └── 2024-09-01.Kirkland_Exhibition/
 │       ├── index.md         ← Page text and gallery include
 │       ├── photo1.jpg       ← Photos displayed automatically
 │       └── photo2.jpg
-├── Chapter_Activity/        ← Chapter event pages
-│   ├── index.md             ← Chapter Activity listing page (auto-generated tiles)
-│   └── 2017-06-01.Professor_Chino_Workshop/
-│       ├── index.md
-│       └── img-0949.jpg
 ├── Ikenobo_Ikebana.md       ← About Ikenobo Ikebana
-├── Ikenobo_Styles/           ← Ikebana style descriptions
+├── Ikenobo_Styles/           ← Ikebana style descriptions (listing + sub-pages)
+├── About_Us.md               ← About Us page
 ├── Lessons.md                ← Lesson information
 ├── Contact.md                ← Contact page
 ├── Calendar.md               ← Calendar page
