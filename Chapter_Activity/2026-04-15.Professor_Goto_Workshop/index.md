@@ -9,4 +9,4 @@ layout: default
 
 ### Arrangements from the workshop
 
-See [Gallery of workshop compositions](../../Gallery/2026-04-15.Professor_Goto_Workshop)
+See [Gallery of workshop compositions](/Gallery/2026-04-15.Professor_Goto_Workshop)
