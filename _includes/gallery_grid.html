@@ -1,6 +1,15 @@
-{% assign items = site.pages | where_exp: "item", "item.dir contains include.section" | where_exp: "item", "item.dir != include.section" | sort: "dir" | reverse %}
+{% if include.section == "." %}
+  {% assign resolved_section = page.dir %}
+{% else %}
+  {% assign resolved_section = include.section %}
+{% endif %}
+{% assign section_depth = resolved_section | split: "/" | size %}
+{% assign child_depth = section_depth | plus: 1 %}
+{% assign items = site.pages | where_exp: "item", "item.dir contains resolved_section" | where_exp: "item", "item.dir != resolved_section" | sort: "dir" | reverse %}
 <div class="gallery-grid">
 {% for p in items %}
+  {% assign p_depth = p.dir | split: "/" | size %}
+  {% if p_depth != child_depth %}{% continue %}{% endif %}
   {% assign thumb = nil %}
   {% for f in site.static_files %}
     {% if f.path contains p.dir and f.extname == '.jpg' %}
